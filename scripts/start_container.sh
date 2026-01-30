@@ -5,6 +5,6 @@ set -e
 docker pull abhishekf5/simple-python-flask-app
 
 # Run the Docker image as a container
-docker run -d -p 8000:8000 abhishekf5/simple-python-flask-app
+docker run -d -p 8006:8006 abhishekf5/simple-python-flask-app
 
 echo "***********AWS CICD successfully completed!!!*************"
